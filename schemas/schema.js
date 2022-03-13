@@ -5,8 +5,20 @@ import createSchema from 'part:@sanity/base/schema-creator'
 import schemaTypes from 'all:part:@sanity/base/schema-type'
 
 //we import the object and document schema
-import program from './program'
-import programImage from './programImage'
+import localeString from './localeString'
+import localeText from './localeText'
+import singletonAbout from './singletonAbout'
+import singletonContact from './singletonContact'
+import home from './home'
+import callToActionMain from './callToActionMain'
+import project from './project'
+import projectImage from './projectImage'
+import team from './team'
+import timelineItem from './timelineItem'
+import socials from './socials'
+
+
+
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
   // We name our schema
@@ -15,7 +27,16 @@ export default createSchema({
   // to the ones provided by any plugins that are installed
   types: schemaTypes.concat([
     /* Your types here! */
-    program,
-    programImage
+    localeString,
+    localeText,
+    home,
+    callToActionMain,
+    project,
+    projectImage,
+    team,
+    timelineItem,
+    socials,
+    singletonAbout,
+    singletonContact,
   ]),
 })

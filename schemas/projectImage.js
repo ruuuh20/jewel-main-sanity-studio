@@ -1,7 +1,7 @@
 export default {
      
-       name: 'programImage',
-    title: 'Program Image',
+       name: 'projectImage',
+    title: 'Project Image',
     type: 'image',
     fields: [
         {
@@ -13,8 +13,6 @@ export default {
             }
         }
     ],
-    options: {
-        hotspot: true
-    }
+  
 
 }
