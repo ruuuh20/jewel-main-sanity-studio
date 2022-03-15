@@ -65,6 +65,12 @@ export default {
       description: "short overview for sidebar",
       type: "string",
     },
+    {
+      name: "keyDates",
+      title: "Key Dates",
+      type: "text",
+      rows: 3,
+    },
   ],
   preview: {
     select: {

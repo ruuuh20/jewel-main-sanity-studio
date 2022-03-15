@@ -16,6 +16,8 @@ import projectImage from './projectImage'
 import team from './team'
 import timelineItem from './timelineItem'
 import socials from './socials'
+import program from './program'
+import programCategories from './programCategories'
 
 
 
@@ -33,6 +35,8 @@ export default createSchema({
     callToActionMain,
     project,
     projectImage,
+    program,
+    programCategories,
     team,
     timelineItem,
     socials,
