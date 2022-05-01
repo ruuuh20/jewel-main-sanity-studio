@@ -15,5 +15,17 @@ export default {
       type: "image",
       
     },
-  ]
+    {
+      title: 'Description Block English',
+      name: 'descriptionBlockEn',
+       type: 'array',
+      of: [{type: 'block'}],
+   
+    },
+  ],
+   preview: {
+    select: {
+      title: "title.en",
+    },
+  },
 }

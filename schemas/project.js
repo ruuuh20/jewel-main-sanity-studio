@@ -60,6 +60,21 @@ export default {
       type: "text",
     },
     {
+      title: "block Content",
+      description:
+        "The main content area, use the + button top right to add component blocks",
+      name: "blockContent",
+      type: "blockContentExtended",
+    },
+    {
+      title: "Poster",
+      description: "optional poster/flyer for program page",
+      name: "poster",
+      type: "array",
+      of: [{ type: "image" }],
+    },
+
+    {
       name: "overview",
       title: "overview",
       description: "short overview for sidebar",

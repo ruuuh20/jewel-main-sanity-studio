@@ -7,6 +7,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 //we import the object and document schema
 import localeString from './localeString'
 import localeText from './localeText'
+import localeBlock from './localeBlock'
 import singletonAbout from './singletonAbout'
 import singletonContact from './singletonContact'
 import home from './home'
@@ -18,6 +19,10 @@ import timelineItem from './timelineItem'
 import socials from './socials'
 import program from './program'
 import programCategories from './programCategories'
+import blockContent from './general/blockContent'
+import blockContentExtended from './general/blockContentExtended'
+import imageCarousel from './components/imageCarousel/imageCarousel'
+import quote from './components/quote/quote'
 
 
 
@@ -31,6 +36,11 @@ export default createSchema({
     /* Your types here! */
     localeString,
     localeText,
+    localeBlock,
+    imageCarousel,
+    quote,
+    blockContent,
+    blockContentExtended,
     home,
     callToActionMain,
     project,

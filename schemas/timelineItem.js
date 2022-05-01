@@ -14,6 +14,30 @@ export default {
       name: 'timelineItemText',
       type: 'localeText',
    
+    },
+    {
+      title: 'Timeline Block English',
+      name: 'timelineBlockEn',
+       type: 'array',
+      of: [{type: 'block'}],
+   
+    },
+    {
+      title: 'Timeline Block Korean',
+      name: 'timelineBlockKo',
+       type: 'array',
+      of: [{type: 'block'}],
+   
+    },
+
+    {
+ title: 'Text Items',
+ name: 'textItems',
+ type: 'array',
+   of: [{type: 'localeText'}],
+
     }
+   
+
   ]
 }
