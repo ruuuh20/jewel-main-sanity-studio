@@ -86,6 +86,16 @@ export default {
       type: "text",
       rows: 3,
     },
+    {
+      name: "previousSlug",
+      title: "slug for previous project - go back",
+      type: "string",
+    },
+    {
+      name: "nextSlug",
+      title: "slug for next project - go to next",
+      type: "string",
+    },
   ],
   preview: {
     select: {

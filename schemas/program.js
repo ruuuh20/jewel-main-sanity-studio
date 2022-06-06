@@ -10,6 +10,12 @@ export default {
    
     },
     {
+      title: "ID",
+      name: "ID",
+      type: "number",
+   
+    },
+    {
       title: "Logo",
       name: "logo",
       type: "image",
@@ -21,6 +27,25 @@ export default {
        type: 'array',
       of: [{type: 'block'}],
    
+    },
+    {
+      title: 'Block Content',
+      name: 'blockContentEn',
+       type: 'array',
+      of: [
+        {type: 'block', 
+          of: [
+        {type: 'string'}
+      ]},
+       {type:'image'}
+      ],
+   
+    },
+       {
+      name: "images",
+      title: "Images",
+      type: "array",
+      of: [{ type: "projectImage" }],
     },
   ],
    preview: {
