@@ -15,6 +15,7 @@ import callToActionMain from './callToActionMain'
 import project from './project'
 import projectImage from './projectImage'
 import team from './team'
+import post from './post'
 import timelineItem from './timelineItem'
 import socials from './socials'
 import program from './program'
@@ -42,6 +43,7 @@ export default createSchema({
     blockContent,
     blockContentExtended,
     home,
+    post,
     callToActionMain,
     project,
     projectImage,

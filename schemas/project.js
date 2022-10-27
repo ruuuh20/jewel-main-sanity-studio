@@ -42,6 +42,11 @@ export default {
       type: "string",
     },
     {
+      name: "category",
+      title: "Category",
+      type: "string",
+    },
+    {
       name: "contentOne",
       title: "Content One",
       description: "First block of long description for project page",

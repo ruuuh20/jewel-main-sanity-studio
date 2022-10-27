@@ -36,7 +36,8 @@ export default {
   ],
    preview: {
       select: {
-        title: 'name.en'
+        title: 'name.en',
+        subtitle: 'order'
       },
     }
   
