@@ -46,5 +46,16 @@ export default {
         },
       ],
     },
+    {
+      title: "Upcoming Events",
+      name: "upcomingEvents",
+      type: "array",
+      of: [
+        {
+          type: "reference",
+          to: [{ type: "event" }],
+        },
+      ],
+    },
   ],
 };

@@ -24,6 +24,7 @@ import blockContent from './general/blockContent'
 import blockContentExtended from './general/blockContentExtended'
 import imageCarousel from './components/imageCarousel/imageCarousel'
 import quote from './components/quote/quote'
+import event from './event'
 
 
 
@@ -54,5 +55,6 @@ export default createSchema({
     socials,
     singletonAbout,
     singletonContact,
+    event,
   ]),
 })
